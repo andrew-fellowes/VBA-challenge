@@ -5,7 +5,7 @@ Sub stock()
     Dim closing_price As Double
     Dim cumul_vol As LongLong
     Dim ticker_name As String
-    Dim row_count As Integer
+    Dim row_count As Long
     Dim output_row As Integer
     Dim headings_array As Variant
     Dim CondFormatRange As Range
